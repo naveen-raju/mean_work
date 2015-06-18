@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title> MongoList</title>
+		<script type="text/javascript" src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+		<script src = "app.js"></script>
+
+		<body ng-app="mongoList" ng-controller="MainCtrl">
+
+			First Name : <input name="firstName" ng-model="firstName"><br>
+			Last Name  : <input name="lastName" ng-model="lastName"><br>
+
+		<hr>
+
+			<div>
+				{{ firstName }}<br>
+				{{ lastName }}<br>
+			</div>
+
+
+		</body>
+	</head>
+
+</html>
